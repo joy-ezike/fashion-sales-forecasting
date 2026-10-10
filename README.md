@@ -25,6 +25,16 @@ A fashion business needs clearer visibility into sales patterns, product prefere
 - Period covered: 2018–2022
 - Product, color, material and sales-related fields
 
+### Data source and attribution
+
+- **Dataset:** [Fashion Trend Dataset](https://www.kaggle.com/datasets/fashionworldda/fashion-trend-dataset)
+- **Creator:** fashionworldda
+- **Platform:** Kaggle
+- **Date accessed:** October 10, 2026
+- **File used:** `data/fashion_sales.csv`
+- **Modifications:** Renamed the source file, reviewed data types and prepared the data for analysis.
+- **License:** Refer to the license displayed on the Kaggle dataset page.
+
 This project uses public portfolio data rather than confidential client information.
 
 ## Tools used
