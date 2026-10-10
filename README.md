@@ -25,10 +25,6 @@ A fashion business needs clearer visibility into sales patterns, product prefere
 - Period covered: 2018–2022
 - Product, color, material and sales-related fields
 
-This project uses portfolio data rather than confidential client information. 
-4. Delete this sentence:
-
-```text
 This project uses public portfolio data rather than confidential client information.
 
 ## Tools used
@@ -77,6 +73,7 @@ fashion-sales-forecasting/
 ├── visuals/
 │   └── fashion-sales-forecasting-poster.png
 └── README.md
+```
 
 ## Limitations
 
