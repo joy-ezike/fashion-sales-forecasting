@@ -1,5 +1,12 @@
-# Artifact for time series analysis of fashion trends using social media data
-# Eyitemi Joy Ezike/ 30078244/ M.Sc. Data Science
+# Fashion Sales Forecasting & Trend Analysis
+# Author: Joy Ezike
+#
+# Purpose:
+# Analyze fashion sales patterns, evaluate seasonality,
+# compare forecasting models and support inventory decisions.
+#
+# Portfolio:
+# https://joy-ezike.my.canva.site/
 # Load all the necessary libraries that will be used for this project
 if (!require("tidyverse")) install.packages("tidyverse")
 if (!require("lubridate")) install.packages("lubridate")
@@ -22,7 +29,7 @@ library(mlr)
 library(prophet)
 
 # Read the data file into a data frame name it fashion_data
-fashion_data <- read.csv("C:\\Users\\personal\\OneDrive - University of South Wales\\R_Tutorials\\Fashion_data_2018_2022 EXCEL.csv", header = TRUE)
+fashion_data <- read.csv("data/fashion_sales.csv")
 
 # Convert the month and year to a date object for easier analysis
 fashion_data$date <- make_date(fashion_data$year_of_sale, fashion_data$month_of_sale)
