@@ -25,7 +25,11 @@ A fashion business needs clearer visibility into sales patterns, product prefere
 - Period covered: 2018–2022
 - Product, color, material and sales-related fields
 
-This project uses portfolio data rather than confidential client information. The repository should identify the original data source and applicable usage terms in `data/data_dictionary.md`.
+This project uses portfolio data rather than confidential client information. 
+4. Delete this sentence:
+
+```text
+This project uses public portfolio data rather than confidential client information.
 
 ## Tools used
 
@@ -66,17 +70,13 @@ This project uses portfolio data rather than confidential client information. Th
 
 ```text
 fashion-sales-forecasting/
-├── README.md
 ├── analysis/
 │   └── fashion_forecasting.R
 ├── data/
-│   └── data_dictionary.md
-├── documentation/
-│   └── model_results.md
-└── visuals/
-    ├── fashion-sales-forecasting-poster.png
-    └── charts/
-```
+│   └── fashion_sales.csv
+├── visuals/
+│   └── fashion-sales-forecasting-poster.png
+└── README.md
 
 ## Limitations
 
