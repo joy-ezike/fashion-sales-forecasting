@@ -269,7 +269,7 @@ future_dates <- seq.Date(from = max(fashion_data$date) + months(1), by = "month"
 future_features <- data.frame(
   date = future_dates,
   month_sin = sin(2 * pi * month(future_dates) / 12),
-  month_cos = cos(2 * pi * month(future_dates) / 12)fas
+  month_cos = cos(2 * pi * month(future_dates) / 12)
 )
 
 lm_future_predictions <- predict(lm_model, newdata = future_features)
